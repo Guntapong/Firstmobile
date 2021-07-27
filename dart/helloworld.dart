@@ -1,5 +1,6 @@
 void main() {
   print("Guntapong");
   print("Lekjaroen");
-  print("Old : 21");
+  print("Nickname : Thun");
+  print("I'm : 21");
 }
