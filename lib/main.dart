@@ -1,14 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_ced/Index.dart';
+
+import 'package:mobile_ced/index.dart';
+import 'package:mobile_ced/screen/dashboard.dart';
 import 'package:mobile_ced/screen/register.dart';
+
 import 'config/constant.dart';
 import 'screen/login.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(Myapp());
 }
 
-class MyApp extends StatelessWidget {
+class Myapp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -20,6 +23,7 @@ class MyApp extends StatelessWidget {
       routes: {
         'login': (context) => Login(),
         'register': (context) => Register(),
+        'dashboard': (context) => Dashboard(),
       },
       home: Index(),
     );
